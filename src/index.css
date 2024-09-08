@@ -33,10 +33,9 @@
   --accent-color: #db4650;
   --accent-color-SVG: brightness(0) saturate(100%) invert(39%) sepia(65%)
     saturate(5325%) hue-rotate(336deg) brightness(96%) contrast(79%);
-
-  /* Font schema */
-
-  /* Font schema */
+  --text-color-darker: #b8ac98a7;
+  /* #b8a598  #9f7d3d*/
+  /* #b8ac98 #faefda78*/
 }
 
 * {
@@ -47,8 +46,47 @@
   padding: 0;
 }
 
+.biggerHeading {
+  font-family: "Bebas Neue";
+  font-size: 101px;
+  font-weight: 400;
+  line-height: 90%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.Content {
+  max-width: 1224px;
+  width: 100%;
+}
+
+.Link {
+  color: var(--accent-color);
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 76px !important;
+  margin: 0 !important;
+}
+
+p {
+  font-family: Manrope;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+}
+
 body {
   background-color: var(--bckg-color);
   color: var(--text-color);
   font-family: "Bebas Neue";
+}
+hr {
+  height: 3px;
+  border: none;
+  border-bottom: 3px solid var(--bckg-ligther);
 }

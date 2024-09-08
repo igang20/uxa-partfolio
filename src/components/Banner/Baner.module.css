@@ -1,9 +1,12 @@
 .Baner {
+  max-width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   justify-content: space-around;
   gap: 80px;
+  padding: 80px 0;
+  border-bottom: 3px solid var(--bckg-ligther);
 }
 
 .BanerHeading {
@@ -20,6 +23,7 @@
   font-weight: 400;
   line-height: 150%;
   letter-spacing: 0%;
+  color: var(--text-color-darker);
 }
 
 .ImageSection {
