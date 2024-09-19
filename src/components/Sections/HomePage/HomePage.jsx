@@ -2,6 +2,7 @@ import Styles from './HomePage.module.css'
 import Baner from '../../Banner/Baner'
 import ProjectsList from '../../ProjectsList/List'
 import About from '../../About/About'
+import Contact from '../../Contact/Contact'
 
 
 export default function HomePage() {
@@ -11,6 +12,7 @@ export default function HomePage() {
                 <Baner />
                 <ProjectsList />
                 <About />
+                <Contact />
             </div>
         </main>
     )

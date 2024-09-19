@@ -1,4 +1,4 @@
-.About {
+.Contact {
   width: 100%;
   padding: 80px 0;
   display: flex;
@@ -9,18 +9,8 @@
   border-bottom: 3px solid var(--bckg-ligther);
 }
 
-.AboutText {
-  width: 700px;
+.SocialList {
   display: flex;
-  flex-direction: column;
+  margin-top: 20px;
   gap: 16px;
-}
-
-.AboutHead {
-  font-family: Manrope;
-  font-size: 32px;
-  font-weight: 500;
-  line-height: 140%;
-  letter-spacing: 0%;
-  text-align: left;
 }

@@ -1,5 +1,5 @@
 .CustomButton {
-  width: auto;
+  width: min-content;
   height: auto;
   background-color: var(--accent-color);
   border-radius: 100px;

@@ -65,6 +65,15 @@
   text-decoration: underline;
   text-decoration-thickness: 3px;
   font-weight: bold;
+  text-transform: uppercase;
+}
+.MuiTextField-root,
+.MuiInputBase,
+.MuiInputBase-root {
+  background-color: var(--bckg-ligther);
+  border-radius: 4px;
+  color: var(--text-color) !important;
+  border: none;
 }
 
 h1 {
@@ -78,6 +87,7 @@ p {
   font-weight: 400;
   line-height: 150%;
   letter-spacing: 0%;
+  color: var(--text-color-darker);
 }
 
 body {
