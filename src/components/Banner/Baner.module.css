@@ -44,9 +44,3 @@
   flex-direction: column;
   gap: 8px;
 }
-
-.BanerActions {
-  margin-top: 40px;
-  display: flex;
-  gap: 16px;
-}

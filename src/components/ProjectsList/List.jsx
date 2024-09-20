@@ -11,6 +11,8 @@ export default function ProjectsList(props) {
             </div>
             <ul className={Styles.List}>
                 <ProjectCard />
+                <ProjectCard />
+                <ProjectCard />
             </ul>
         </section>
     )

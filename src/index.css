@@ -89,7 +89,23 @@ p {
   letter-spacing: 0%;
   color: var(--text-color-darker);
 }
+section {
+  width: 100%;
+  padding: 80px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-sizing: border-box;
+  gap: 80px;
+  border-bottom: 3px solid var(--bckg-ligther);
+}
 
+.SectionText {
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
 body {
   background-color: var(--bckg-color);
   color: var(--text-color);

@@ -6,7 +6,7 @@ import Form from '../Form/Form'
 
 export default function Contact() {
     return (
-        <section className={Styles.Contact}>
+        <section className={Styles.Contact} >
             <aside>
                 <h1>Связь со мной</h1>
                 <div>

@@ -5,6 +5,7 @@ import About from '../../About/About'
 import Contact from '../../Contact/Contact'
 
 
+
 export default function HomePage() {
     return (
         <main className={Styles.HomePage}>
